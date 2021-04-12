@@ -49,9 +49,8 @@
 #p1
 {
 	margin-top: 0px;
-	margin-bottom: 0px;
 	border:3px solid black;
-	width:32%;
+	width:33%;
 	background-color: #ead3cb;
 	float:left;
 }
@@ -59,44 +58,40 @@
 {
 
 	border:3px solid black;
-	width:32%;
+	width:33%;
 	background-color: #ead3cb;
 	margin-top: 0px;
 	float:right;
-	position:relative;
-	right:34%;
+	left:2%;
+	
 }
 #p3
 {
 	border:3px solid black;
-	width:32%;
+	width:33%;
 	background-color: #ead3cb;
 	margin-top: 0px;
 	float:right;
-	position:relative;
-	left:32%;
-
-}
-
-@media(max-width: 992px)
-{
 	
+
 }
-@media(max-width: 768px)and(min-width: 991px)
+
+
+@media(max-width: 768px)
 {
 	#p1
 	{
-		width:50%;
+		width:48%;
 		margin-bottom: 10%;
 	}
 	#p2
 	{
-		width:50%;
-		left:2%;
+		width:48%;
 	}
 	#p3
 	{
 		width:100%;
+		float:right;
 		
 	}
 }
@@ -105,17 +100,20 @@
 	#p1
 	{
 		width:100%;
+		float:right;
 		margin-bottom: 10%;
 	}
 	#p2
 	{
-		left:2%;
 		width:100%;
+		float:right;
+		margin-bottom: 10%;
 	}
 	#p3
 	{
-		right:2%;
 		width:100%;
+		float:right;
+		margin-bottom: 10%;
 		
 	}
 }
