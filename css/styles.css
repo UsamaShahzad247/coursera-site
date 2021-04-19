@@ -136,13 +136,13 @@ body
 	position: relative;
 	overflow: hidden;
 	border:2px solid orange;
-
 }
 
 #menu-tiles:hover , #special-tiles:hover , #map-tiles:hover
 {
 	text-shadow: 2px 2px 2px #630000;
 	text-decoration: none;
+
 }
 #menu-tiles span , #special-tiles span , #map-tiles span
 {
@@ -189,7 +189,100 @@ body
 	margin-top: 30px;
 	text-align: center;
 }
+/********** Second Page Styling Starts Here **********/
+.category-tile
+{
+	position: relative;
+	border:2px solid orange;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 0px auto 15px;
+}
+.category-tile span
+{
+	
+	text-transform: uppercase;
+	position: absolute;
+	font-size: 1em;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	color: white;
+	background-color: orange;
+	text-align: center; 
+	opacity: .8;
 
+}
+.category-tile span:hover
+{
+	text-shadow: 2px 2px 2px #630000;
+	text-decoration: none;
+}
+.category-tile:hover
+{
+	box-shadow: 2px 2px 2px  orange;
+}
+.menu-categories-title+div
+{
+	margin-bottom: 50px;
+}
+#Deals
+{
+		margin-bottom: 50px;
+}
+/********** Second Page Styling Ends Here **********/
+.menu-item-tile
+{
+	margin-bottom: 20px;
+}
+.menu-item-tile hr
+{
+	width: 75%;
+}
+.menu-item-tile .menu-item-price
+{
+	text-align: right;
+	font-size: 1em;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.menu-item-tile .menu-item-price span
+{
+
+	font-size: .6em;
+}
+.menu-item-photo
+{
+	position: relative;
+	max-width: 250px;
+	overflow: hidden;
+	border:2px solid orange;
+	padding: 0;
+	margin-top: 40px;
+
+}
+.menu-item-photo div
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 25%;
+	background-color: orange;
+	opacity: .8;
+	text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin-top:40px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/********** Breafast Styling Ends Here **********/
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.carousel-inner
@@ -233,7 +326,10 @@ body
 	margin-top: 30px;
 	text-align: center;
 }
-
+.menu-item-tile .menu-item-price
+{
+	text-align: left;
+}
 }
 
 /********** Extra small devices only **********/
@@ -310,5 +406,17 @@ body
 {
 	border-top: 2px solid orange;
 	width: 50%;
+}
+.menu-item-tile .menu-item-price
+{
+	text-align: center;
+}
+.menu-item-photo
+{
+	margin-left:20%;
+}
+.menu-item-description
+{
+	text-align: center;
 }
 }
