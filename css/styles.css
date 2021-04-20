@@ -54,7 +54,7 @@ li
 	padding-bottom: 20px;
 	background-color:#fb3640;
 	overflow: none;
-	height: 1000px;
+	height: auto;
 }
 .row h1
 {
@@ -98,10 +98,8 @@ li
     margin-top: 0px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-.col-xs-12
-{
-	margin-left: 10px;
-	margin: 10px;
-	overflow: auto;
-}
+	.col-xs-12
+	{
+		overflow: auto;
+	}
 }
