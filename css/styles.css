@@ -24,10 +24,6 @@
 	margin-top: 0px;
 	margin-bottom: 30px;
 }
-a
-{
-	background-color:#fb3640;
-}
 .icon-bar
 {
 	border:2px solid black;
@@ -35,6 +31,10 @@ a
 .sr-only
 {
 	border:2px solid black;
+}
+a
+{
+	color: black;
 }
 li
 {
@@ -62,16 +62,11 @@ li
 	margin-top:10px;
 	margin-bottom:40px;
 }
-#nav-list
-{
-	background-color: #fb3640 ;
+
+@media (min-width: 1200px) {
+
 }
-@media (min-width: 1440px) {
-	
-}
-@media (min-width: 1200px) and (max-width: 1439px) {
-	
-}
+
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -80,11 +75,7 @@ li
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	#nav-list
-{
-	color:#eeebdd;
-}
-	
+
 }
 
 /********** Extra small devices only **********/
@@ -102,4 +93,13 @@ li
 	{
 		overflow: auto;
 	}
+	section
+	{
+		padding: 10px;
+	}
+	.row
+	{
+		padding: 30px;
+	}
+
 }
